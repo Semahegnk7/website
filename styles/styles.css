@@ -185,6 +185,7 @@ section {
   transition: all 0.4s ease-in-out;
   filter: grayscale(100%);
 }
+
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
 }
@@ -328,6 +329,10 @@ section {
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .SpringBoot {
   width: 83%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .angular-material {
+  width: 70%;
 }
 
 .stat-title {
@@ -859,6 +864,9 @@ section {
 
   .main-title h2 .bg-text {
     font-size: 5.5rem;
+  }
+  .main-title h3 .bg-text {
+    font-size: 3.5rem;
   }
 }
 @media screen and (max-width: 1250px) {
