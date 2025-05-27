@@ -310,29 +310,54 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
+  width: 98%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .angular {
-  width: 80%;
+  width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 56%;
+  width: 76%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 62%;
+  width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .SpringBoot {
-  width: 83%;
+  width: 93%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .angular-material {
+  width: 90%;
+}
+/* Extra Skills */
+.about-stats .progress-bars .progress-bar .progress-con .progress .git {
+  width: 95%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .docker {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .jira {
   width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .jenkins {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .aws {
+  width: 65%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .azure {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .postgresql {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
+  width: 95%;
 }
 
 .stat-title {
@@ -972,4 +997,42 @@ section {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+.icons .icon {
+  color: #fff;
+  margin: 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.icons .icon:hover {
+  color: #00acee;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.blog {
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.blog:hover {
+  transform: translateY(-5px);
+}
+
+.blog-text h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-text p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+
